@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const resumeButton = document.getElementById("download-resume");
     resumeButton.addEventListener("click", function (e) {
         const link = document.createElement("a");
-        link.href = "/assets/docs/resume.pdf";
+        link.href = "/assets/resume.pdf";
         link.download = "Resume.pdf";
         link.click();
     });
